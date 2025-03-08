@@ -4,9 +4,9 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
-@Table(name = "Producto")
+@Table(name = "Categoria")
 @Data
-public class Producto {
+public class Categoria {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -14,11 +14,5 @@ public class Producto {
 
     private String nombre;
     private String descripcion;
-    private Double precio;
-    private Integer stock;
-
-    @ManyToOne
-    @JoinColumn(name = "categoria_id")
-    private Categoria categoria;
 
 }
