@@ -12,7 +12,7 @@ public class Resena {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Integer califiacion;
+    private Integer calificacion;
     private String comentario;
 
     @ManyToOne

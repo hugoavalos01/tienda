@@ -18,7 +18,6 @@ public class CarritoProducto {
     @JoinColumn(name = "producto_id", insertable = false, updatable = false)
     private Producto producto;
 
-
     @EmbeddedId
     private CarritoProductoPK id;
 
