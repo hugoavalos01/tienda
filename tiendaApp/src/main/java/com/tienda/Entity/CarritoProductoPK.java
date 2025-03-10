@@ -9,6 +9,13 @@ public class CarritoProductoPK implements Serializable {
     private Long carrito_id;
     private Long producto_id;
 
+    public CarritoProductoPK(){}
+
+    public CarritoProductoPK(Long carrito_id, Long producto_id){
+        this.carrito_id = carrito_id;
+        this.producto_id = producto_id;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
