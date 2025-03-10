@@ -1,9 +1,9 @@
-package com.tienda.Entity;
+package com.tienda.Controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(path = "/categoria")
-public class CategoriaController {
+@RequestMapping(path = "/pedido")
+public class PedidoController {
 }

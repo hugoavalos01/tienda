@@ -1,5 +1,9 @@
-package com.tienda.Entity;
+package com.tienda.Service;
 
+import com.tienda.Entity.Carrito;
+import com.tienda.Entity.CarritoProducto;
+import com.tienda.Entity.CarritoProductoPK;
+import com.tienda.Entity.Producto;
 import com.tienda.Repository.CarritoProductoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

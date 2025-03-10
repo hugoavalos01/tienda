@@ -1,5 +1,7 @@
-package com.tienda.Entity;
+package com.tienda.Controller;
 
+import com.tienda.Entity.Producto;
+import com.tienda.Service.ProductoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

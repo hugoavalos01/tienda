@@ -1,7 +1,7 @@
-package com.tienda.Entity;
+package com.tienda.Service;
 
 import org.springframework.stereotype.Service;
 
 @Service
-public class ResenaService {
+public class CategoriaService {
 }

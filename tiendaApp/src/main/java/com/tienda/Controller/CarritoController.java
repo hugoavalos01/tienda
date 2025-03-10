@@ -1,5 +1,7 @@
-package com.tienda.Entity;
+package com.tienda.Controller;
 
+import com.tienda.Entity.Carrito;
+import com.tienda.Service.CarritoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

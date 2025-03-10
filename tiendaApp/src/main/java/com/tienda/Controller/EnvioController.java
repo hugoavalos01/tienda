@@ -1,9 +1,9 @@
-package com.tienda.Entity;
+package com.tienda.Controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(path = "/detallespedido")
-public class DetallesPedidoController {
+@RequestMapping(path = "/envio")
+public class EnvioController {
 }
