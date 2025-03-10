@@ -21,5 +21,4 @@ public class CarritoProducto {
     @EmbeddedId
     private CarritoProductoPK id;
 
-
 }
